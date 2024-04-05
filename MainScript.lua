@@ -20,7 +20,7 @@ local function createNotification()
     notification.Parent = gui
 
     -- Animate notification to fade out after 1 second
-    wait(1)
+    wait(2)
     notification:TweenSize(UDim2.new(0, 0, 0, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Linear, 0.5, true)
     wait(0.5)
     notification:Destroy()
