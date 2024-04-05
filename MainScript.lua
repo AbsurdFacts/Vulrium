@@ -34,7 +34,7 @@ local hacks = {
     {
         Name = "Movement Hacks",
         Buttons = {
-            {Text = "Fly", Function = function()
+            {Text = "Ragdoll", Function = function()
                 -- Toggle fly
                 game.Players.LocalPlayer.Character.Humanoid:ChangeState(Enum.HumanoidStateType.Physics)
             end},
