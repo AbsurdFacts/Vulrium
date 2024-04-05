@@ -6,7 +6,7 @@ gui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 local function createNotification()
     local notification = Instance.new("TextLabel")
     notification.Name = "VulriumNotification"
-    notification.Text = "Vulrium loaded"
+    notification.Text = "Vulrium loaded! Press RIGHTSHIFT to open menu."
     notification.Size = UDim2.new(0, 200, 0, 50) -- Size of the notification
     notification.Position = UDim2.new(1, -220, 1, -70) -- Position it to the bottom right corner
     notification.BackgroundColor3 = Color3.fromRGB(30, 30, 30) -- Dark background color
