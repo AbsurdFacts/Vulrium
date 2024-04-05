@@ -1,3 +1,7 @@
+-- Create a ScreenGui to hold our button and notification
+local gui = Instance.new("ScreenGui")
+gui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
 -- Function to create a notification
 local function createNotification()
     local notification = Instance.new("TextLabel")
